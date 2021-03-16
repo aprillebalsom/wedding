@@ -1,0 +1,39 @@
+.home-header {
+    background-image: url('./assets/ape-tim-bug-2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    overflow-y: hidden;
+
+    height: 100vh;
+    max-width: 100vw;
+
+    ul {
+        display: flex;
+    }
+}
+
+.home-head-text {
+    height: 90vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+    h1 {
+        text-align: left;
+        line-height: 5rem;
+    }
+}
+
+
+.tagline {
+    padding: 60px 0;
+}
+
+.wed-dates {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

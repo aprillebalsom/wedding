@@ -1,3 +1,17 @@
-.wrapper {
-    max-width: 100%;
-}
+
+// colors
+$pink: #F3B396;
+$green: #989F88;
+$yellow: #F6CA98;
+$grey: #575554;
+$light-grey: #A7A9AC;
+$background: #f9f5f2;
+
+
+// fonts
+$main-font: athelas, serif;
+
+// import partials
+@import 'setup';
+@import 'global';
+@import 'home';

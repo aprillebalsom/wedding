@@ -1,0 +1,36 @@
+// global styles
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    color: $grey;
+    background-color: $background;
+
+    text-align: center;
+    font-family: athelas, serif; 
+    font-size: 1.6rem;
+    text-transform: lowercase;
+    letter-spacing: 1.5px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+h1 {
+    font-size: clamp(6rem, 6.2vw, 6.4rem);
+}
+
+h2 {
+    font-size: clamp(4rem, 4.2vw, 4.4rem);
+
+}
+
+.wrapper {
+    width: 1200px;
+    max-width: 85%;
+    margin: 0 auto;
+}
