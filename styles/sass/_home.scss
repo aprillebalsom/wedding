@@ -15,18 +15,9 @@
 }
 
 .rsvp-bar {
-    height: 5vh;
+    padding: 10px 0;
     display: flex;
     justify-content: flex-end;
-
-    a {
-        background-color: $yellow;
-
-        text-transform: uppercase;
-
-        padding: 5px 12px;
-        margin-top: 10px;
-    }
 }
 
 .head-flex {
@@ -44,7 +35,11 @@
         color: $light-grey;
 
         text-transform: uppercase;
-        font-size: clamp(2.4rem, 2.6vw, 2.8rem);
+        font-size: clamp(2rem, 2.2vw, 2.4rem);
+    }
+
+    h2 {
+        font-size: clamp(4rem, 4.2vw, 4.4rem);
     }
 }
 
@@ -91,15 +86,10 @@
 
 
 .home-categories {
-    // display: grid; 
-    // grid-template-columns: 1fr 1fr 1fr; 
-    // grid-template-rows: 1fr;
-    // gap: 10px;
-
     padding: 0px 0 100px;
 
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
 
@@ -156,9 +146,16 @@
 .home-seeds {
     background-color: $light-pink;
     background-image: $map;
+}
 
-    h2 {
-        text-align: center;  
+.home-seeds-header {
+    text-align: center;  
+
+    p {
+        color: $light-grey;
+
+        font-size: clamp(2rem, 2.2vw, 2.4rem);
+        font-style: italic;
     }
 }
 
@@ -183,5 +180,33 @@
         font-size: clamp(1.6rem, 1.7vw, 1.8rem); 
         font-weight: lighter;
         text-align: left;
+    }
+}
+
+.cta {
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: center;
+
+    a {
+        font-size: clamp(3rem, 3.2vw, 3.4rem);
+    }
+
+    &::before,
+    &::after {
+        content:'';
+        border-top: .5px solid $grey;
+        margin: 40px 20px 0 20px;
+        flex: 1 0 20px;
+    }
+}
+
+.gallery {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    img {
+        width: calc((100%/3) - 20px);
     }
 }
