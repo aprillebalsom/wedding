@@ -1,43 +1,187 @@
 .home-header {
-    // background-image: url('./assets/ape-tim-bug.jpg');
-    // background-size: cover;
-    // background-repeat: no-repeat;
-    // background-position: center center;
-    // overflow-y: hidden;
+    height: 100vh;
+    background-image: $map;
+}
 
-    // height: 90vh;
-    // max-width: 100vw;
+.announcement-bar {
+    background-color: $green;
 
-    ul {
-        display: flex;
+    text-align: center;
+
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rsvp-bar {
+    height: 5vh;
+    display: flex;
+    justify-content: flex-end;
+
+    a {
+        background-color: $yellow;
+
+        text-transform: uppercase;
+
+        padding: 5px 12px;
+        margin-top: 10px;
     }
 }
 
-.home-head-text {
-    // height: 90vh;
+.head-flex {
+    height: 90vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    a {
+        padding: 3px 0;
+        margin: 5px 0;
+    }
+
+    h1 {
+        color: $light-grey;
+
+        text-transform: uppercase;
+        font-size: clamp(2.4rem, 2.6vw, 2.8rem);
+    }
+}
+
+.home-header-feat {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+    img {
+        width: 15%;
+    }
+
+    i {
+        font-size: clamp(2rem, 2.2vw, 2.4rem);
+        
+        padding-top: 15px;
+        padding-left: 5px;
+    }
+}
+
+.home-header-text {
+    padding-top: 80px;
+    padding-left: 35px;
+}
+
+.home-intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro-img,
+.intro-text {
+    width: 50%;
+    padding: 20px;
+}
+
+.intro-text h2 {
+    color: $light-grey;
+
+    font-size: clamp(2rem, 2.2vw, 2.4rem);
+    text-transform: uppercase;
+}
+
+
+.home-categories {
+    // display: grid; 
+    // grid-template-columns: 1fr 1fr 1fr; 
+    // grid-template-rows: 1fr;
+    // gap: 10px;
+
+    padding: 0px 0 100px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.category {
+    text-align: center;
+
+    background-color: #f8eae0;
+    background-image: $map;
+    border-radius: 4px;
+
+    width: 33.3%;
+    margin: 15px;
+    padding: 20px;
+
+    img {
+        padding: 20px 0;
+        width: 50%;
+    }
+}
+
+.home-unplugged {
+    background-color: $green;
+
+    text-align: center;
+
+    padding: 60px 0;
 
     display: flex;
     justify-content: center;
     align-items: center;
 
-    h1 {
-        text-align: left;
-        line-height: 5rem;
+    p {
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+
+.home-map {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-map-img,
+.home-map-text {
+    width: 50%;
+    padding: 0 20px;
+}
+
+.home-map-text img{
+    width: 20%;
+}
+
+.home-seeds {
+    background-color: $light-pink;
+    background-image: $map;
+
+    h2 {
+        text-align: center;  
+    }
+}
+
+.steps {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    div {
+        padding: 20px;
+        text-align: center;
     }
 
     img {
+        padding: 20px 0;
         width: 50%;
-        margin: 20px auto;
     }
-}
 
+    h3 {
+        color: $light-grey;
 
-.tagline {
-    padding: 60px 0;
-}
-
-.wed-dates {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+        font-size: clamp(1.6rem, 1.7vw, 1.8rem); 
+        font-weight: lighter;
+        text-align: left;
+    }
 }

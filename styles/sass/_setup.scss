@@ -14,7 +14,8 @@ html,
 body, 
 h1, 
 h2, 
-h3, 
+h3,
+h4, 
 p, 
 a, 
 ul, 
@@ -34,6 +35,9 @@ li {
 
 a {
     color: inherit;
+
     font-family: inherit;
     text-decoration: none;
+    
+    display: inline-block;
 }

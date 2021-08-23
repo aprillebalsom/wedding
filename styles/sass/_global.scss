@@ -2,13 +2,13 @@
 
 html {
     font-size: 62.5%;
+    scroll-behavior: smooth;
 }
 
 body {
     color: $grey;
     background-color: $background;
 
-    text-align: center;
     font-family: athelas, serif; 
     font-size: 1.6rem;
     text-transform: lowercase;
@@ -26,7 +26,14 @@ h1 {
 
 h2 {
     font-size: clamp(4rem, 4.2vw, 4.4rem);
+}
 
+h3 {
+    font-size: clamp(3rem, 3.2vw, 3.4rem);
+}
+
+section {
+    padding: 100px 0;
 }
 
 .wrapper {
@@ -34,3 +41,23 @@ h2 {
     max-width: 85%;
     margin: 0 auto;
 }
+
+
+.square-btn {
+    border: .5px solid $grey;
+
+    text-transform: uppercase;
+    letter-spacing: 2.3px;
+    font-size: clamp(1.2rem, 1.3vw, 1.4rem);
+
+    padding: 5px 10px;
+    margin-top: 15px;
+
+    transition: 0.3s all;
+
+    &:hover {
+        background-color: $green;
+    }
+}
+
+
