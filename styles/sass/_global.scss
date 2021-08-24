@@ -53,10 +53,13 @@ a {
 }
 
 .italics {
-    color: $light-grey;
     font-style: italic;
     font-size: 1.4rem;
     font-weight: lighter;
+}
+
+.accent {
+    color: $light-grey;
 }
 
 .rsvp-btn {

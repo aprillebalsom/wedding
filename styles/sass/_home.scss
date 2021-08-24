@@ -77,13 +77,16 @@
     padding: 20px;
 }
 
-.intro-text h2 {
-    color: $light-grey;
+.intro-text {
 
-    font-size: clamp(2rem, 2.2vw, 2.4rem);
-    text-transform: uppercase;
+    h2 {
+        color: $light-grey;
+
+        font-size: clamp(2rem, 2.2vw, 2.4rem);
+        text-transform: uppercase;
+    }
+
 }
-
 
 .home-categories {
     padding: 0px 0 100px;
@@ -94,12 +97,16 @@
 }
 
 .category {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
 
     background-color: #f8eae0;
     background-image: $map;
     border-radius: 4px;
 
+    height: 300px;
     width: 33.3%;
     margin: 15px;
     padding: 20px;
@@ -111,7 +118,7 @@
 }
 
 .home-unplugged {
-    background-color: $green;
+    background-color: $light-green;
 
     text-align: center;
 
@@ -124,6 +131,10 @@
     p {
         width: 80%;
         margin: 0 auto;
+    }
+
+    img {
+        width: 3%;
     }
 }
 
@@ -161,17 +172,19 @@
 
 .steps {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: center;
+    align-items: flex-end;
 
     div {
         padding: 20px;
         text-align: center;
+        width: calc((100%/4) - 10px);
     }
 
     img {
         padding: 20px 0;
-        width: 50%;
+        max-height: 200px;
+        width: auto;
     }
 
     h3 {
