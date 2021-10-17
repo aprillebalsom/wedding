@@ -590,6 +590,23 @@ a:hover, a:focus {
   padding: 0 20px;
 }
 
+.home-map-img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.home-map-img img {
+  width: 65%;
+  padding-top: 20px;
+}
+
 .home-map-text img {
   width: 20%;
 }
