@@ -157,13 +157,19 @@
     align-items: center;
 
     img {
-        width: 65%;
+        width: 80%;
         padding-top: 20px;
     }
 }
 
-.home-map-text img{
-    width: 20%;
+.home-map-text {
+    p {
+        padding-bottom: 10px
+    }
+
+    img {
+        width: 20%;
+    }
 }
 
 .home-seeds {

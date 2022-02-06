@@ -290,10 +290,12 @@ h1 {
 
 h2 {
   font-size: clamp(3.2rem, 3.4vw, 3.6rem);
+  padding-bottom: 10px;
 }
 
 h3 {
   font-size: clamp(2.8rem, 3vw, 3.2rem);
+  padding-bottom: 10px;
 }
 
 section {
@@ -382,7 +384,7 @@ a:hover, a:focus {
 }
 
 .sub-footer {
-  background-color: #4c4c4d;
+  background-color: #A88660;
   color: #f9f5f2;
   font-size: 1.4rem;
   padding: 10px 0;
@@ -603,8 +605,12 @@ a:hover, a:focus {
 }
 
 .home-map-img img {
-  width: 65%;
+  width: 80%;
   padding-top: 20px;
+}
+
+.home-map-text p {
+  padding-bottom: 10px;
 }
 
 .home-map-text img {
