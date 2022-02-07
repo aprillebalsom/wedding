@@ -47,6 +47,15 @@ a {
     }
 }
 
+hr {
+    border: 0;
+    height: .5px;
+    background: $brown;
+
+    width: 25px;
+    margin: 15px 0;
+}
+
 
 .wrapper {
     width: 1200px;

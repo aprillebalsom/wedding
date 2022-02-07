@@ -1,0 +1,48 @@
+// DETAILS STYLES
+#details {
+    h2 {
+        font-size: clamp(2.8rem, 3vw, 3.2rem);
+    }
+
+    h3 {
+        font-size: clamp(1.5rem, 1.6vw, 1.7rem);
+    }
+}
+
+.details-background {
+    background-image: $map;
+}
+
+.details-flex {
+    display: flex;
+}
+
+.details-aside {
+    width: 5%;
+}
+
+.details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.details-text, .details-img {
+    width: 50%;
+}
+
+.highlight {
+    color: $dark-pink;
+    padding-bottom: 25px;
+    margin-top: -5px;
+}
+
+.wed-details {
+    padding: 20px;
+}
+
+.details-img {
+    img {
+        width: 75%;
+    }
+}
