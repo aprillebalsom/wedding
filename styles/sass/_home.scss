@@ -36,6 +36,8 @@
 
         text-transform: uppercase;
         font-size: clamp(2rem, 2.2vw, 2.4rem);
+
+        padding-bottom: 0;
     }
 
     h2 {
@@ -226,7 +228,7 @@
     &::before,
     &::after {
         content:'';
-        border-top: .5px solid $grey;
+        border-top: .5px solid $brown;
         margin: 40px 20px 0 20px;
         flex: 1 0 20px;
     }
@@ -240,4 +242,10 @@
     img {
         width: calc((100%/3) - 20px);
     }
+}
+
+.contact-us {
+    text-align: center;
+
+    padding-top: 60px;
 }

@@ -1,16 +1,32 @@
 // DETAILS STYLES
 #details {
+    h1 {
+        margin: 30px 0 20px;
+    }
+
     h2 {
-        font-size: clamp(2.8rem, 3vw, 3.2rem);
+        font-size: 1.6rem;
+        text-transform: uppercase;
+        color: $light-grey;
+
+        padding-bottom: 15px;
     }
 
     h3 {
-        font-size: clamp(1.5rem, 1.6vw, 1.7rem);
+        font-size: clamp(2.8rem, 3vw, 3.2rem);
+    }
+
+    h4 {
+        padding-bottom: 0;
+    }
+
+    section {
+        padding: 50px 0;
     }
 }
 
 .details-background {
-    background-image: $map;
+    background-image: $map-tonal;
 }
 
 .details-flex {
@@ -18,7 +34,13 @@
 }
 
 .details-aside {
-    width: 5%;
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+}
+
+.details-main {
+    width: 95%;
 }
 
 .details {
@@ -38,11 +60,29 @@
 }
 
 .wed-details {
-    padding: 20px;
+    padding: 20px 20px 20px 0;
+
+    p:nth-of-type(4) {
+        padding-top: 10px;
+    }
+}
+
+.day-two h2 {
+    margin-top: 35px;
 }
 
 .details-img {
-    img {
-        width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.details-btns {
+    display: flex;
+
+    a {
+        text-align: center;
+        margin: 50px 15px 0 0;
     }
 }
