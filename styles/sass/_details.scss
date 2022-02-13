@@ -1,7 +1,7 @@
 // DETAILS STYLES
 #details {
     h1 {
-        margin: 30px 0 20px;
+        margin: 30px 0 0;
     }
 
     h2 {
@@ -20,9 +20,6 @@
         padding-bottom: 0;
     }
 
-    section {
-        padding: 50px 0;
-    }
 }
 
 .details-background {
@@ -51,6 +48,7 @@
 
 .details-text, .details-img {
     width: 50%;
+    padding-top: 50px;
 }
 
 .highlight {

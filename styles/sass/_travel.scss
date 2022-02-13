@@ -1,0 +1,44 @@
+// TRAVEL STYLES
+
+.travel-list {
+    background-color: #f8eae0;
+    background-image: $map;
+    border-radius: 4px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 100px;
+    padding: 80px 10px;
+
+    ul {
+        width: calc((100%/3) - 20px);
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    li {
+        padding: 10px 0;
+        list-style-type: disc;
+    }
+}
+
+.rsvp-cta {
+    background-color: $green;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.rsvp-text {
+    width: 60%;
+}
+
+.rsvp-link {
+    width: 40%;
+    text-align: center;
+}
