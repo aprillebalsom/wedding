@@ -45,7 +45,8 @@
     }
 }
 
-.home-header-feat {
+.home-header-feat,
+.travel-header-feat {
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -62,7 +63,8 @@
     }
 }
 
-.home-header-text {
+.home-header-text,
+.travel-header-text {
     padding-top: 80px;
     padding-left: 35px;
 }
