@@ -49,7 +49,7 @@ a {
 
     &:hover,
     &:focus {
-        color: $light-grey;
+        color: $brown;
     }
 }
 
@@ -151,5 +151,9 @@ hr {
 
     a {
         font-style: italic;
+        
+        &:hover {
+            color: $grey;
+        }
     }
 }

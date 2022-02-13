@@ -1,4 +1,4 @@
-.home-header {
+.home {
     height: 100vh;
     background-image: $map;
 }
@@ -90,13 +90,14 @@
 
 }
 
-.home-categories {
+.categories {
     padding: 0px 0 100px;
 
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 
 .category {
     display: flex;
@@ -117,9 +118,17 @@
         padding: 20px 0;
         width: 50%;
     }
+
+    div {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
 }
 
-.home-unplugged {
+.home-unplugged,
+.rental-car {
     background-color: $light-green;
 
     text-align: center;
@@ -140,20 +149,24 @@
     }
 }
 
-.home-map {
+.home-map,
+.travel-info {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .home-map-img,
-.home-map-text {
+.home-map-text,
+.travel-info-img, 
+.travel-info-text {
     width: 50%;
     padding: 0 20px;
 }
 
 
-.home-map-img {
+.home-map-img,
+.travel-info-img {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -164,7 +177,8 @@
     }
 }
 
-.home-map-text {
+.home-map-text,
+.travel-info-text {
     p {
         padding-bottom: 10px
     }

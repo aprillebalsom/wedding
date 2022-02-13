@@ -13,7 +13,7 @@
 </head>
 <body>
     <!-- start of header -->
-    <header class="home-header">
+    <header class="home header">
     
         <div class="announcement-bar">
             <p class="wrapper">So <span class="italics">nice</span> we did it <span class="italics">twice</span>!</p>
@@ -24,6 +24,7 @@
                 <a class="rsvp-btn" href="https://withjoy.com/sonicewedidittwice/rsvp" target="_blank"
                     rel="noopener">rsvp</a>
             </div>
+
             <div class="head-flex">
                 <nav>
                     <ul>
@@ -33,12 +34,13 @@
                         </li>
                     </ul>
                 </nav>
+
                 <section class="home-header-feat">
                     <div class="home-header-text">
                         <h1>Getting to Newfoundland</h1> 
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere officiis minus quo aliquid dolores, quidem reiciendis odit at blanditiis eos molestias pariatur nam harum nulla nemo facilis totam, modi, laudantium repellendus tenetur deleniti molestiae numquam cupiditate cumque. Qui, nam at iste mollitia, maiores blanditiis atque provident, debitis necessitatibus adipisci perspiciatis?</p>
+                        <p>Since Newfoundland is an island, we recommend traveling by air. The main and closest airport is the St. John's International Airport (YYT) which is a short 20 minute drive from the downtown area.</p>
                         
-                        <a href="https://www.google.com/maps/d/u/0/edit?mid=1F469XMaomypDDaoSufgUDyPdAOl5LLNr&usp=sharing" target="_blank" class="square-btn">Get Directions</a>
+                        <a href="https://www.google.com/maps/d/u/0/edit?mid=1F469XMaomypDDaoSufgUDyPdAOl5LLNr&usp=sharing" target="_blank" rel="noopener" class="square-btn">Get Directions</a>
                     </div>
                     <!-- TODO alt text -->
                     <img src="/styles/assets/main-flower.png" alt="">
@@ -52,10 +54,10 @@
     <!-- start of main -->
     <main>
     
-        <div class="home-categories wrapper">
+        <div class="categories wrapper">
     
             <section class="category">
-                <div class="wrapper">
+                <div>
                     <h3>Places to Stay</h3>
                     <!-- TODO alt text -->
                     <img src="/styles/assets/details.png" alt="">
@@ -64,7 +66,7 @@
             </section>
     
             <section class="category">
-                <div class="wrapper">
+                <div>
                     <h3>Where to Eat</h3>
                     <!-- TODO alt text -->
                     <img src="/styles/assets/travel.png" alt="">
@@ -73,7 +75,7 @@
             </section>
 
             <section class="category">
-                <div class="wrapper">
+                <div>
                     <h3>Things to do</h3>
                     <!-- TODO alt text -->
                     <img src="/styles/assets/details.png" alt="">
@@ -82,63 +84,85 @@
             </section>
         </div>
     
-        <section class="home-unplugged">
+        <section class="rental-car">
             <div class="wrapper">
                 <img src="styles/assets/greenery.png" alt="">
                 <h2>Getting Around</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis optio, quisquam aliquid magni nostrum sapiente modi earum voluptatem hic neque aut suscipit, corporis pariatur iste. </p>
+                <p>The best way to explore St. John's and the surrounding sights is by car. Rental cars are <span class="italics">very</span> limited in St. John's and so we recommend securing your rental as soon as possible.</p>
+                <p>Taxis are available throughout the city and there is public transit, <a href="https://www.metrobus.com/home/" target="_blank" rel="noopener">the metro bus</a>, however it is quite infrequent. There is also a <a href="https://stjohnshoponhopoff.ca/" target="_blank" rel="noopener" >hop-on-hop-off bus</a> that travels to popular attractions.</p>
+                <!-- TODO insert link -->
                 <a class="square-btn" href="#">Rent a Car</a>
             </div>
         </section>
     
         <section class="wrapper">
-            <div class="home-map">
-                <div class="home-map-text">
+            <div class="travel-info">
+                <div class="travel-info-text">
                     <!-- TODO alt text -->
                     <img src="/styles/assets/details.png" alt="">
                     <h3>Places to Stay</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi id ducimus eum magnam consectetur impedit soluta
-                    dolore unde voluptate natus suscipit, ab repellendus asperiores sapiente nemo alias sunt. Vero consequatur ea
-                    praesentium fugit error mollitia quisquam quam eum maiores quaerat! </p>
+                    <p>The downtown St. John's area is the heart of the city. Filled with local shops, tasty coastal food and salty ocean air as it sits just above the harbour. It also happens to be where most of our wedding events take place so we recommend staying within the area. There are lots of places to stay ranging from well-known hotel chains, local boutique hotels and BnB's.</p>
                 </div>
 
-                <div class="home-map-img">
+                <div class="travel-info-img">
                     <!-- TODO alt text -->
                     <img src="/styles/assets/map.png" alt="">
                 </div>
             </div>
 
             <div class="travel-list">
-            
-                <ul>
-                    <li>Lorem ipsum dolor sit amet.</li>
-                    <li>Lorem ipsum dolor sit amet.</li>
-                    <li>Lorem ipsum dolor sit amet.</li>
-                </ul>
-            
-                <ul>
-                    <li>Lorem ipsum dolor sit amet.</li>
-                    <li>Lorem ipsum dolor sit amet.</li>
-                    <li>Lorem ipsum dolor sit amet.</li>
-                </ul>
-            
-                <ul>
-                    <li>Lorem ipsum dolor sit amet.</li>
-                    <li>Lorem ipsum dolor sit amet.</li>
-                    <li>Lorem ipsum dolor sit amet.</li>
-                </ul>
+                
+                <div class="list">
+                    <div class="hotels">
+                        <h4>Hotels</h4>
+                        <ul>
+                            <li>
+                                <a href="https://www.germainhotels.com/en/alt-hotel/st-johns?ds_rl=1281609&ds_rl=1281609&gclid=CjwKCAiA9aKQBhBREiwAyGP5lYCwRehsChtNbgK_fq5HLKIzISxRBbIjk8j3wKPwskpOyRtnvzA49BoCjQoQAvD_BwE&gclsrc=aw.ds" target="_blank" rel="noopener">Alt Hotel St. John's</a>
+                            </li>
+                            <li>
+                                <a href="https://www.marriott.com/en-us/hotels/yytds-delta-hotels-st-johns-conference-centre/rooms/" target="_blank" rel="noopener">Delta Hotels</a>
+                            </li>
+                            <li>
+                                <a href="https://www.hilton.com/en/hotels/yytcadt-doubletree-st-johns-harbourview/" target="_blank" rel="noopener"> Hilton Double Tree St. John's Harbourview</a>
+                            </li>
+                            <li>
+                                <a href="https://www.marriott.com/en-us/hotels/yytsi-sheraton-hotel-newfoundland/overview/" target="_blank" rel="noopener">Sheraton Hotel Newfoundland</a>
+                            </li>
+                            <li><a href="https://www.marriott.com/hotels/hotel-photos/yytcy-courtyard-st-johns-newfoundland/" target="_blank" rel="noopener">Courtyard by Mariott St. John's</a></li>
+                        </ul>
+                    </div>
+                    <div class="hotels">
+                        <h4>Local Boutique Hotels</h4>
+                        <ul>
+                            <li><a href="https://www.blueonwater.com/hotel/" target="_blank" rel="noopener">Blue on Water</a></li>
+                            <li><a href="https://www.steelehotels.com/our-hotels/jag/" target="_blank" rel="noopener">The Jag</a></li>
+                            <li><a href="https://murraypremiseshotel.com/" target="_blank" rel="noopener">Murray Premises Hotel</a></li>
+                            <li><a href="http://www.theinnbymallardcottage.ca/" target="_blank" rel="noopener">The Inn by Mallard Cottage</a>*</li>
+                        </ul>
+                    </div>
+                    <div class="hotels">
+                        <h4>Bed & Breakfasts</h4>
+                        <ul>
+                        <li><a href="https://premieresuites.com/furnished-apartments/st-john-s/" target="_blank" rel="noopener">Premiere Suites</a></li>
+                        <li><a href="https://www.airbnb.ca/s/Downtown--St.-John's--NL--Canada/homes?tab_id=home_tab&refinement_paths%5B%5D=%2Fhomes&flexible_trip_dates%5B%5D=february&flexible_trip_dates%5B%5D=march&flexible_trip_lengths%5B%5D=weekend_trip&date_picker_type=calendar&query=Downtown%2C%20St.%20John%27s%2C%20NL%2C%20Canada&place_id=ChIJ8UfvEbCjDEsRCF6pDeChZq0&source=structured_search_input_header&search_type=autocomplete_click" target="_blank" rel="noopener">Air BnB</a></li>
+                        <li><a href="https://www.expedia.ca/St-Johns-Hotels-Georgestown-Inn.h44215928.Hotel-Information?chkin=2022-02-27&chkout=2022-02-28&x_pwa=1&rfrr=HSR&pwa_ts=1644770824375&referrerUrl=aHR0cHM6Ly93d3cuZXhwZWRpYS5jYS9Ib3RlbC1TZWFyY2g%3D&useRewards=false&rm1=a2&regionId=181832&destination=St.+John%27s%2C+Newfoundland+and+Labrador%2C+Canada&destType=MARKET&lodging=BED_AND_BREAKFAST&sort=RECOMMENDED&top_dp=170&top_cur=CAD&semcid=CA.UB.GOOGLE.DT-c-EN.HOTEL&SEMDTL=a111848848841.b1114449623439.g1aud-1210701017419%3Akwd-1472311744.l1.e1c.m1CjwKCAiA9aKQBhBREiwAyGP5lahPpXViOhHnTjPM30mJp2wM5pmMOjZl3JgV_CyvzThBheDmweemtRoCmuwQAvD_BwE.r14131c862810269a3c52838ef4dcb4ebcca5a4e49451b46811a1e87593302f66a.c1qQ0k-KRWw6sNjUf-eqwN7A.j19061009.k1.d1486363844783.h1e.i1.n1.o1.p1.q1.s1.t1.x1.f1.u1.v1.w1&gclid=CjwKCAiA9aKQBhBREiwAyGP5lahPpXViOhHnTjPM30mJp2wM5pmMOjZl3JgV_CyvzThBheDmweemtRoCmuwQAvD_BwE&semdtl=&userIntent=&selectedRoomType=220876312&selectedRatePlan=292291810" target="_blank" rel="noopener">Georgetown Inn</a>*</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <p>* out of the downtown area</p>
             
             </div>
         
         </section>
 
         <section class="wrapper">
-            <div class="home-map">
-                <div class="home-map-img">
+            <div class="travel-info">
+                <div class="travel-info-img">
                     <!-- TODO alt text -->
                     <img src="/styles/assets/map.png" alt="">
                 </div>
-                <div class="home-map-text">
+                <div class="travel-info-text">
                     <!-- TODO alt text -->
                     <img src="/styles/assets/details.png" alt="">
                     <h3>Where to Eat</h3>
@@ -149,35 +173,35 @@
             <div class="travel-list">
             
                 <ul>
-                    <li>Lorem ipsum dolor sit amet.</li>
-                    <li>Lorem ipsum dolor sit amet.</li>
-                    <li>Lorem ipsum dolor sit amet.</li>
+                    <li><a href="" target="_blank" rel="noopener"></a></li>
+                    <li><a href="" target="_blank" rel="noopener"></a></li>
+                    <li><a href="" target="_blank" rel="noopener"></a></li>
                 </ul>
             
                 <ul>
-                    <li>Lorem ipsum dolor sit amet.</li>
-                    <li>Lorem ipsum dolor sit amet.</li>
-                    <li>Lorem ipsum dolor sit amet.</li>
+                    <li><a href="" target="_blank" rel="noopener"></a></li>
+                    <li><a href="" target="_blank" rel="noopener"></a></li>
+                    <li><a href="" target="_blank" rel="noopener"></a></li>
                 </ul>
             
                 <ul>
-                    <li>Lorem ipsum dolor sit amet.</li>
-                    <li>Lorem ipsum dolor sit amet.</li>
-                    <li>Lorem ipsum dolor sit amet.</li>
+                    <li><a href="" target="_blank" rel="noopener"></a></li>
+                    <li><a href="" target="_blank" rel="noopener"></a></li>
+                    <li><a href="" target="_blank" rel="noopener"></a></li>
                 </ul>
             
             </div>
         </section>
 
         <section class="wrapper">
-            <div class="home-map">
-                <div class="home-map-text">
+            <div class="travel-info">
+                <div class="travel-info-text">
                     <!-- TODO alt text -->
                     <img src="/styles/assets/details.png" alt="">
                     <h3>Things to Do</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci iure inventore omnis ducimus laudantium officiis nisi doloremque, animi voluptatem. Quas ut reprehenderit neque et eum inventore, sint iure dolores? Deleniti quasi quae itaque blanditiis quis numquam, repellendus, ipsa, corrupti laboriosam quam temporibus exercitationem at nobis?</p>
                 </div>
-                <div class="home-map-img">
+                <div class="travel-info-img">
                     <!-- TODO alt text -->
                     <img src="/styles/assets/map.png" alt="">
                 </div>
@@ -186,21 +210,21 @@
             <div class="travel-list">
                
                 <ul>
-                    <li>Lorem ipsum dolor sit amet.</li>
-                    <li>Lorem ipsum dolor sit amet.</li>
-                    <li>Lorem ipsum dolor sit amet.</li>
+                    <li><a href="" target="_blank" rel="noopener"></a></li>
+                    <li><a href="" target="_blank" rel="noopener"></a></li>
+                    <li><a href="" target="_blank" rel="noopener"></a></li>
                 </ul>
             
                 <ul>
-                    <li>Lorem ipsum dolor sit amet.</li>
-                    <li>Lorem ipsum dolor sit amet.</li>
-                    <li>Lorem ipsum dolor sit amet.</li>
+                    <li><a href="" target="_blank" rel="noopener"></a></li>
+                    <li><a href="" target="_blank" rel="noopener"></a></li>
+                    <li><a href="" target="_blank" rel="noopener"></a></li>
                 </ul>
             
                 <ul>
-                    <li>Lorem ipsum dolor sit amet.</li>
-                    <li>Lorem ipsum dolor sit amet.</li>
-                    <li>Lorem ipsum dolor sit amet.</li>
+                    <li><a href="" target="_blank" rel="noopener"></a></li>
+                    <li><a href="" target="_blank" rel="noopener"></a></li>
+                    <li><a href="" target="_blank" rel="noopener"></a></li>
                 </ul>
                 
             </div>
@@ -222,7 +246,7 @@
         <section>
             <div class="contact-us">
                 <h4>Have a question?</h4>
-                <p>Send us an email</p>
+                <p>Send us an email, <a href="">sonicewedidittwice@gmail.com</a></p>
             </div>
         </section>
 
