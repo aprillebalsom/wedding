@@ -631,14 +631,14 @@ hr {
 
 .home-map-img,
 .home-map-text,
-.travel-info-img,
+.travel-info-map,
 .travel-info-text {
   width: 50%;
   padding: 0 20px;
 }
 
 .home-map-img,
-.travel-info-img {
+.travel-info-map {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -651,7 +651,7 @@ hr {
 }
 
 .home-map-img img,
-.travel-info-img img {
+.travel-info-map img {
   width: 80%;
   padding-top: 20px;
 }
@@ -895,23 +895,19 @@ hr {
   padding: 80px;
 }
 
-.list {
+.list-flex {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  padding-bottom: 25px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .hotels,
 .restos,
 .activities {
-  width: calc((100%/3) - 40px);
+  width: calc((100%/3) - 10px);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -922,19 +918,45 @@ hr {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .hotels li,
 .restos li,
 .activities li {
   padding: 10px 0;
-  list-style-type: disc;
+}
+
+.hotels li::before,
+.restos li::before,
+.activities li::before {
+  content: "\f105";
+  color: #A88660;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  padding-right: 10px;
 }
 
 .hotels span,
 .restos span,
 .activities span {
   color: #A88660;
+}
+
+.hotels p,
+.restos p,
+.activities p {
+  padding: 25px 0 0 15px;
+}
+
+iframe {
+  border: none;
+}
+
+#map-canvas .i4ewOd-pzNkMb-haAclf {
+  background-color: green !important;
 }
 
 .rsvp-cta {

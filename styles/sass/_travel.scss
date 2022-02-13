@@ -30,38 +30,54 @@
     padding: 80px;
 }
 
-.list {
+.list-flex {
     display: flex;
-    justify-content: flex-start;
-    align-items: center;
-
-    padding-bottom: 25px;
+    justify-content: center;
 }
 
 .hotels,
 .restos,
 .activities {
-    width: calc((100%/3) - 40px);
+    width: calc((100%/3) - 10px);
 
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    // align-items: center;
-
-    // h4 {
-    //     align-self: flex-start;
-    //     padding-right: 20px;
-    // }
+    align-items: center;
 
     li {
         padding: 10px 0;
-        list-style-type: disc;
+        
+        &::before {
+            content: "\f105";
+            color: $brown;
+
+            font-family: "Font Awesome 5 Free";
+            font-weight: 900;
+
+            padding-right: 10px;
+        }
     }
 
     span {
         color: $brown;
     }
+
+    p {
+        padding: 25px 0 0 15px;
+
+    }
 }
+
+iframe {
+    border: none;
+}
+
+#map-canvas .i4ewOd-pzNkMb-haAclf {
+    background-color: green !important;
+}
+
+
 
 .rsvp-cta {
     background-color: $green;
