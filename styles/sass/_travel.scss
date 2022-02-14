@@ -1,4 +1,9 @@
 // TRAVEL STYLES
+.travel {
+    height: 100vh;
+    background-image: $map-tonal;
+}
+
 .travel-header-text {
    width: 50%;
 }
@@ -21,9 +26,14 @@
     }
 }
 
+.travel-container:nth-of-type(3) {
+    padding: 0;
+}
+
 .travel-list {
-    background-color: #f8eae0;
-    background-image: $map;
+    // background-color: #f8eae0;
+    background-color: $green;
+    background-image: $map-green;
     border-radius: 4px;
     
     margin-top: 100px;
@@ -58,29 +68,27 @@
             padding-right: 10px;
         }
     }
+}
 
-    span {
-        color: $brown;
-    }
+.legend {
+    padding-top: 25px;
 
     p {
-        padding: 25px 0 0 15px;
-
+        padding-bottom: 10px;
     }
 }
 
-iframe {
-    border: none;
+.heart {
+    color: $yellow;
 }
 
-#map-canvas .i4ewOd-pzNkMb-haAclf {
-    background-color: green !important;
+.asterisk {
+    color: $dark-pink;
+    font-size: 2.2rem;
 }
-
-
 
 .rsvp-cta {
-    background-color: $green;
+    background-color: $light-pink;
 }
 
 .rsvp-flex {

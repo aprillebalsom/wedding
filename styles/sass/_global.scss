@@ -46,6 +46,7 @@ section {
 
 a {
     transition: 0.3s all;
+    cursor: pointer;
 
     &:hover,
     &:focus {
@@ -60,6 +61,10 @@ hr {
 
     width: 25px;
     margin: 15px 0;
+}
+
+iframe {
+    border: none;
 }
 
 .wrapper {
@@ -90,7 +95,6 @@ hr {
 
     &:hover {
         color: $grey;
-        // margin-bottom: 20px;
     }
 }
 

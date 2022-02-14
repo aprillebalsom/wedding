@@ -13,7 +13,7 @@
 </head>
 <body>
     <!-- start of header -->
-    <header class="home header">
+    <header class="travel header">
     
         <div class="announcement-bar">
             <p class="wrapper">So <span class="italics">nice</span> we did it <span class="italics">twice</span>!</p>
@@ -91,12 +91,12 @@
                 <h2>Getting Around</h2>
                 <p>The best way to explore St. John's and the surrounding sights is by car. Rental cars are <span class="italics">very</span> limited in St. John's and so we recommend securing your rental as soon as possible.</p>
                 <p>Taxis are available throughout the city and there is public transit, <a href="https://www.metrobus.com/home/" target="_blank" rel="noopener">the metro bus</a>, however it is quite infrequent. There is also a <a href="https://stjohnshoponhopoff.ca/" target="_blank" rel="noopener" >hop-on-hop-off bus</a> that travels to popular attractions.</p>
-                <!-- TODO insert link -->
-                <a class="square-btn" href="#">Rent a Car</a>
+              
+                <a class="square-btn" href="https://www.enterprise.ca/en/home.html">Rent a Car</a>
             </div>
         </section>
     
-        <section class="wrapper">
+        <section id="accom" class="travel-container wrapper">
             <div class="travel-info">
                 <div class="travel-info-text">
                     <!-- TODO alt text -->
@@ -106,7 +106,7 @@
                 </div>
 
                 <div class="travel-info-map">
-                    <iframe src="https://www.google.com/maps/d/u/3/embed?mid=19EQu_DwKpWgVjJxm4YXT4e5PW1p_Iv8t&ehbc=2E312F" width="640"
+                    <iframe src="https://www.google.com/maps/d/u/3/embed?mid=1Iow7G53-pKBJJDJbDECL_2mYLNFCui2V&ehbc=2E312F" width="640"
                         height="480"></iframe>
                 </div>
             </div>
@@ -131,7 +131,6 @@
                             </li>
                             <li><a href="https://www.marriott.com/hotels/hotel-photos/yytcy-courtyard-st-johns-newfoundland/" target="_blank" rel="noopener">Courtyard by Mariott St. John's</a></li>
                         </ul>
-                        <p>*<span class="italics">outside the core downtown area</span></p>
                     </div>
 
                     <div class="hotels">
@@ -148,7 +147,7 @@
                                 <a href="https://murraypremiseshotel.com/" target="_blank" rel="noopener">Murray Premises Hotel</a>
                             </li>
                             <li>
-                                <a href="http://www.theinnbymallardcottage.ca/" target="_blank" rel="noopener">The Inn by Mallard Cottage</a><span>*</span>
+                                <a href="http://www.theinnbymallardcottage.ca/" target="_blank" rel="noopener">The Inn by Mallard Cottage</a><span class="asterisk">*</span>
                             </li>
                         </ul>
                     </div>
@@ -163,26 +162,31 @@
                                 <a href="https://www.airbnb.ca/s/Downtown--St.-John's--NL--Canada/homes?tab_id=home_tab&refinement_paths%5B%5D=%2Fhomes&flexible_trip_dates%5B%5D=february&flexible_trip_dates%5B%5D=march&flexible_trip_lengths%5B%5D=weekend_trip&date_picker_type=calendar&query=Downtown%2C%20St.%20John%27s%2C%20NL%2C%20Canada&place_id=ChIJ8UfvEbCjDEsRCF6pDeChZq0&source=structured_search_input_header&search_type=autocomplete_click" target="_blank" rel="noopener">Air BnB</a>
                             </li>
                             <li>
-                                <a href="https://www.expedia.ca/St-Johns-Hotels-Georgestown-Inn.h44215928.Hotel-Information?chkin=2022-02-27&chkout=2022-02-28&x_pwa=1&rfrr=HSR&pwa_ts=1644770824375&referrerUrl=aHR0cHM6Ly93d3cuZXhwZWRpYS5jYS9Ib3RlbC1TZWFyY2g%3D&useRewards=false&rm1=a2&regionId=181832&destination=St.+John%27s%2C+Newfoundland+and+Labrador%2C+Canada&destType=MARKET&lodging=BED_AND_BREAKFAST&sort=RECOMMENDED&top_dp=170&top_cur=CAD&semcid=CA.UB.GOOGLE.DT-c-EN.HOTEL&SEMDTL=a111848848841.b1114449623439.g1aud-1210701017419%3Akwd-1472311744.l1.e1c.m1CjwKCAiA9aKQBhBREiwAyGP5lahPpXViOhHnTjPM30mJp2wM5pmMOjZl3JgV_CyvzThBheDmweemtRoCmuwQAvD_BwE.r14131c862810269a3c52838ef4dcb4ebcca5a4e49451b46811a1e87593302f66a.c1qQ0k-KRWw6sNjUf-eqwN7A.j19061009.k1.d1486363844783.h1e.i1.n1.o1.p1.q1.s1.t1.x1.f1.u1.v1.w1&gclid=CjwKCAiA9aKQBhBREiwAyGP5lahPpXViOhHnTjPM30mJp2wM5pmMOjZl3JgV_CyvzThBheDmweemtRoCmuwQAvD_BwE&semdtl=&userIntent=&selectedRoomType=220876312&selectedRatePlan=292291810" target="_blank" rel="noopener">Georgetown Inn</a><span>*</span>
+                                <a href="https://www.expedia.ca/St-Johns-Hotels-Georgestown-Inn.h44215928.Hotel-Information?chkin=2022-02-27&chkout=2022-02-28&x_pwa=1&rfrr=HSR&pwa_ts=1644770824375&referrerUrl=aHR0cHM6Ly93d3cuZXhwZWRpYS5jYS9Ib3RlbC1TZWFyY2g%3D&useRewards=false&rm1=a2&regionId=181832&destination=St.+John%27s%2C+Newfoundland+and+Labrador%2C+Canada&destType=MARKET&lodging=BED_AND_BREAKFAST&sort=RECOMMENDED&top_dp=170&top_cur=CAD&semcid=CA.UB.GOOGLE.DT-c-EN.HOTEL&SEMDTL=a111848848841.b1114449623439.g1aud-1210701017419%3Akwd-1472311744.l1.e1c.m1CjwKCAiA9aKQBhBREiwAyGP5lahPpXViOhHnTjPM30mJp2wM5pmMOjZl3JgV_CyvzThBheDmweemtRoCmuwQAvD_BwE.r14131c862810269a3c52838ef4dcb4ebcca5a4e49451b46811a1e87593302f66a.c1qQ0k-KRWw6sNjUf-eqwN7A.j19061009.k1.d1486363844783.h1e.i1.n1.o1.p1.q1.s1.t1.x1.f1.u1.v1.w1&gclid=CjwKCAiA9aKQBhBREiwAyGP5lahPpXViOhHnTjPM30mJp2wM5pmMOjZl3JgV_CyvzThBheDmweemtRoCmuwQAvD_BwE&semdtl=&userIntent=&selectedRoomType=220876312&selectedRatePlan=292291810" target="_blank" rel="noopener">Georgetown Inn</a><span class="asterisk">*</span>
                             </li>
                         </ul>
                     </div>
 
                 </div>
             </div>
+
+            <div class="legend">
+                <p><span class="asterisk">*</span> <span class="italics">outside the core downtown area</span></p>
+            </div>
+
         </section>
 
-        <section class="wrapper">
+        <section id="eats" class="travel-container wrapper">
             <div class="travel-info">
                 <div class="travel-info-map">
-                    <iframe src="https://www.google.com/maps/d/u/3/embed?mid=19EQu_DwKpWgVjJxm4YXT4e5PW1p_Iv8t&ehbc=2E312F" width="640"
+                    <iframe src="https://www.google.com/maps/d/u/3/embed?mid=1shYmyeK1C0LF8iEORrCJzNw9PU73FiY2&ehbc=2E312F" width="640"
                         height="480"></iframe>
                 </div>
                 <div class="travel-info-text">
                     <!-- TODO alt text -->
                     <img src="/styles/assets/details.png" alt="">
                     <h3>Where to Eat <span class="italics">(& Drink)</span></h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non eius ducimus ipsa, modi excepturi nisi totam iste voluptas, veritatis consequatur voluptate. Nemo modi perferendis, sunt corporis assumenda hic eaque, saepe ab est minima, pariatur quae iure! Harum sunt earum illo.</p>
+                    <p>Downtown St. John's is filled with local restaurants and cafes. You'll find fresh seafood, local craft beer, and the best fish & chips on earth. It is also home to the well-known <a href="https://georgestreetlive.ca/bars/">George Street</a> which houses over 23 lively bars within one block. After a day of exploring, stop by for a drink <span class="italics">(or three)</span> and grab some late night fries from the ziggys truck on your walk home.</p>
                 </div>
             </div>
 
@@ -196,16 +200,16 @@
                                 <a href="https://www.terrerestaurant.com/" target="_blank" rel="noopener">Terre Restaurant</a>
                             </li>
                             <li>
-                                <a href="https://themerchanttavern.ca/" target="_blank" rel="noopener">Merchant Tavern</a>
+                                <a href="https://themerchanttavern.ca/" target="_blank" rel="noopener">Merchant Tavern</a> <span class="heart">&hearts;</span>
                             </li>
                             <li>
-                                <a href="https://theadelaideoysterhouse.com/" target="_blank" rel="noopener">Mallard Cottage<span>*</span></a>
+                                <a href="https://theadelaideoysterhouse.com/" target="_blank" rel="noopener">Mallard Cottage<span class="asterisk">*</span></a>
                             </li>
                             <li>
                                 <a href="" target="_blank" rel="noopener">Adelaide Oyster House</a>
                             </li>
                             <li>
-                                <a href="https://www.dukeofduckworth.com/" target="_blank" rel="noopener">Duke of Duckworth</a>
+                                <a href="https://www.dukeofduckworth.com/" target="_blank" rel="noopener">Duke of Duckworth</a> <span class="heart">&hearts;</span>
                             </li>
                             <li>
                                 <a href="https://www.blueonwater.com/restaurant/" target="_blank" rel="noopener">Blue on Water</a>
@@ -214,7 +218,6 @@
                                 <a href="http://thesproutrestaurant.com/" target="_blank" rel="noopener">The Sprout</a>
                             </li>
                         </ul>
-                        <p>*<span class="italics">outside the core downtown area</span></p>
 
                     </div>
                 
@@ -222,16 +225,16 @@
                         <ul>
                             <h4>Cafes & Snacks</h4>
                             <li>
-                                <a href="https://www.waterwesttakeout.com/" target="_blank" rel="noopener">Water West Kitchen & Meats</a>
+                                <a href="https://www.waterwesttakeout.com/" target="_blank" rel="noopener">Water West Kitchen & Meats <span class="asterisk">*</span></a>
                             </li>
                             <li>
                                 <a href="https://toslow-nfld.square.site/" target="_blank" rel="noopener">Toslow</a>
                             </li>
                             <li>
-                                <a href="https://ziggypeelgoods.com/" target="_blank" rel="noopener">Ziggys</a>
+                                <a href="https://ziggypeelgoods.com/" target="_blank" rel="noopener">Ziggys Peeled Goods</a> <span class="heart">&hearts;</span>
                             </li>
                             <li>
-                                <a href="https://www.facebook.com/TheParlourOnMilitary/" target="_blank" rel="noopener">The Parlour</a>
+                                <a href="https://www.facebook.com/TheParlourOnMilitary/" target="_blank" rel="noopener">The Parlour Cafe & Creamery</a>
                             </li>
                             <li>
                                 <a href="https://www.batterycafe.ca/" target="_blank" rel="noopener">Battery Cafe</a>
@@ -241,18 +244,18 @@
                 
                     <div class="restos">
                         <ul>
-                            <h4>Drink</h4>
+                            <h4>Drinks</h4>
                             <li>
-                                <a href="https://www.bannermanbrewing.com/" target="_blank" rel="noopener">Bannerman Brewing Co.</a>
+                                <a href="https://www.bannermanbrewing.com/" target="_blank" rel="noopener">Bannerman Brewing Co.</a> <span class="heart">&hearts;</span>
                             </li>
                             <li>
                                 <a href="https://www.yellowbellybrewery.com/" target="_blank" rel="noopener">Yellowbelly Brewery</a>
                             </li>
                             <li>
-                                <a href="https://www.quidividibrewery.ca/" target="_blank" rel="noopener">Quidi Vidi Brewery<span>*</span></a>
+                                <a href="https://www.quidividibrewery.ca/" target="_blank" rel="noopener">Quidi Vidi Brewing Co.<span class="asterisk">*</span></a>
                             </li>
                             <li>
-                                <a href="https://www.instagram.com/corkdlounge/?hl=en" target="_blank" rel="noopener">Cork'd</a>
+                                <a href="https://www.instagram.com/corkdlounge/?hl=en" target="_blank" rel="noopener">Cork'd Wine Bar</a>
                             </li>
                             <li>
                                 <a href="https://www.no4cathedral.com/" target="_blank" rel="noopener">No.4</a>
@@ -262,15 +265,21 @@
 
                 </div>
             </div>
+
+            <div class="legend">
+                <p><span class="heart">&hearts;</span> <span class="italics">Our favourites</span></p>
+                <p><span class="asterisk">*</span> <span class="italics">Outside the core downtown area</span></p>
+            </div>
+
         </section>
 
-        <section class="wrapper">
+        <section id="adventures" class="travel-container wrapper">
             <div class="travel-info">
                 <div class="travel-info-text">
                     <!-- TODO alt text -->
                     <img src="/styles/assets/details.png" alt="">
                     <h3>Things to Do</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci iure inventore omnis ducimus laudantium officiis nisi doloremque, animi voluptatem. Quas ut reprehenderit neque et eum inventore, sint iure dolores? Deleniti quasi quae itaque blanditiis quis numquam, repellendus, ipsa, corrupti laboriosam quam temporibus exercitationem at nobis?</p>
+                    <p>As the most easterly point in North America, Newfoundland is known for its rugged coastline and natural beauty. Embrace the opportunity and hike a leg of the East Coast Trail or explore outside the city and book picnic in Ferryland. If you don't wish to rent a car, catch the hop-on-hop-off bus to historical lookouts like Signal Hill and Cape Spear or jump off in the Quidi Vidi Gut and explore. If the weather is poor <span class="italics"> (which it often is)</span> take some time to emmerse yourself in the Newfoundland history and culture by visiting the Rooms Museum, local shops, or the geo centre.</p>
                 </div>
                 <div class="travel-info-map">
                     <iframe src="https://www.google.com/maps/d/u/3/embed?mid=19EQu_DwKpWgVjJxm4YXT4e5PW1p_Iv8t&ehbc=2E312F" width="640"
@@ -285,7 +294,7 @@
                         <ul>
                             <h4>Landmarks & Trails</h4>
                             <li>
-                                <a href="https://www.eastcoasttrail.com/en/index.aspx" target="_blank" rel="noopener">Hike the East Coast Trails</a>
+                                <a href="https://www.eastcoasttrail.com/en/index.aspx" target="_blank" rel="noopener">Hike the East Coast Trails</a> <span class="heart">&hearts;</span>
                             </li>
                             <li>
                                 <a href="https://www.pc.gc.ca/en/lhn-nhs/nl/signalhill" target="_blank" rel="noopener">Signal Hill</a>
@@ -312,7 +321,7 @@
                                 <a href="https://www.therooms.ca/" target="_blank" rel="noopener">The Rooms</a>
                             </li>
                             <li>
-                                <a href="https://www.thebeeskneesstore.com/" target="_blank" rel="noopener">The Bees Knees</a>
+                                <a href="https://www.thebeeskneesstore.com/" target="_blank" rel="noopener">The Bees Knees</a> <span class="heart">&hearts;</span>
                             </li>
                             <li>
                                 <a href="https://www.geocentre.ca/" target="_blank" rel="noopener">Johnson Geo Centre</a>
@@ -321,7 +330,7 @@
                                 <a href="https://www.facebook.com/Downtown-St-Johns-Pedestrian-Mall-111498054020678/" target="_blank" rel="noopener">Pedestrian Mall</a>
                             </li>
                             <li>
-                                <a href="https://www.facebook.com/woolytops/" target="_blank" rel="noopener">Wooly Tops</a>
+                                <a href="https://www.facebook.com/woolytops/" target="_blank" rel="noopener">Wooly Tops</a> <span class="heart">&hearts;</span>
                             </li>
                             <li>
                                 <a href="http://www.fredsrecords.com/" target="_blank" rel="noopener">Fred's Records</a>
@@ -336,10 +345,10 @@
                         <ul>
                             <h4>Explore beyond St. John's</h4>
                             <li>
-                                <a href="https://lighthousepicnics.ca/book-now/" target="_blank" rel="noopener">Ferryland Picnics</a>
+                                <a href="https://lighthousepicnics.ca/book-now/" target="_blank" rel="noopener">Ferryland Picnics</a> <span class="heart">&hearts;</span>
                             </li>
                             <li>
-                                <a href="https://www.alltrails.com/trail/canada/newfoundland-and-labrador/salmonier-nature-park" target="_blank" rel="noopener">Salmonier Nature Park</a>
+                                <a href="https://www.alltrails.com/trail/canada/newfoundland-and-labrador/salmonier-nature-park" target="_blank" rel="noopener">Salmonier Nature Park</a> <span class="heart">&hearts;</span>
                             </li>
                             <li>
                                 <a href="https://www.miniaqua.org/" target="_blank" rel="noopener">Petty Harbour Mini Aquarium</a>
@@ -352,13 +361,18 @@
                 </div>
                 
             </div>
+
+            <div class="legend">
+                <p><span class="heart">&hearts;</span> <span class="italics">Our favourites</span></p>
+            </div>
+
         </section>
 
         <section class="rsvp-cta">
             <div class="wrapper rsvp-flex">
                 <div class="rsvp-text">
                     <h3>Don't forget to let us know if you can join us!</h3>
-                    <p>We kindly ask that you submit your rsvp on or before may fifthteenth twenty twenty two so we are able to get ready for your arrival.</p>
+                    <p>We kindly ask that you submit your rsvp by may fifteenth twenty twenty two so we are able to get ready for your arrival.</p>
                 </div>
 
                 <div class="rsvp-link">
