@@ -6,6 +6,10 @@
 
 .travel-header-text {
    width: 50%;
+
+   p:nth-of-type(2) {
+       margin-top: 20px;
+   }
 }
 
 .travel-categories {
@@ -13,6 +17,10 @@
 }
 
 .rental-car {
+    img {
+        width: 10%;
+    }
+
     p {
         padding-bottom: 10px;
     }
@@ -31,13 +39,16 @@
 }
 
 .travel-list {
-    // background-color: #f8eae0;
     background-color: $green;
     background-image: $map-green;
     border-radius: 4px;
     
     margin-top: 100px;
     padding: 80px;
+}
+
+.stay img {
+    width: 45%;
 }
 
 .list-flex {
