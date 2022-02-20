@@ -33,7 +33,13 @@ li {
     list-style: none;
 }
 
-a {
+button {
+    border: none;
+    background: none;
+}
+
+a,
+button {
     color: inherit;
 
     font-family: inherit;

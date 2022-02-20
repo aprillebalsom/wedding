@@ -44,7 +44,10 @@ section {
     padding: 100px 0;
 }
 
-a {
+a,
+button {
+    letter-spacing: 1.5px;
+    
     transition: 0.3s all;
     cursor: pointer;
 

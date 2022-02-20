@@ -258,7 +258,13 @@ li {
   list-style: none;
 }
 
-a {
+button {
+  border: none;
+  background: none;
+}
+
+a,
+button {
   color: inherit;
   font-family: inherit;
   text-decoration: none;
@@ -308,13 +314,17 @@ section {
   padding: 100px 0;
 }
 
-a {
+a,
+button {
+  letter-spacing: 1.5px;
   -webkit-transition: 0.3s all;
   transition: 0.3s all;
   cursor: pointer;
 }
 
-a:hover, a:focus {
+a:hover, a:focus,
+button:hover,
+button:focus {
   color: #A88660;
 }
 
@@ -501,6 +511,7 @@ iframe {
 .home-header-feat img,
 .travel-header-feat img {
   width: 15%;
+  min-width: 100px;
 }
 
 .home-header-feat i,
@@ -759,6 +770,25 @@ iframe {
   padding-top: 60px;
 }
 
+.bubble img {
+  width: 71px;
+  position: absolute;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+.bubble p {
+  font-size: 1.3rem;
+  font-style: italic;
+  position: relative;
+  top: 10px;
+  left: 37px;
+}
+
+.hide {
+  display: none;
+}
+
 #details h1 {
   margin: 30px 0 0;
 }
@@ -916,7 +946,7 @@ iframe {
 }
 
 .stay img {
-  width: 45%;
+  width: 40%;
 }
 
 .list-flex {
@@ -1026,7 +1056,6 @@ iframe {
   }
   .home-header-feat img,
   .travel-header-feat img {
-    padding-left: 35px;
     width: 30%;
   }
   .home-header-feat .home-header-text,
@@ -1176,9 +1205,6 @@ iframe {
   }
   .travel-info-text img {
     width: 20%;
-  }
-  .stay img {
-    width: 15%;
   }
 }
 

@@ -53,6 +53,7 @@
 
     img {
         width: 15%;
+        min-width: 100px;
     }
 
     i {
@@ -269,4 +270,25 @@
     text-align: center;
 
     padding-top: 60px;
+}
+
+.bubble {
+    img {
+        width: 71px;
+        position: absolute;
+        transform: rotate(180deg);
+    }
+
+    p {
+        font-size: 1.3rem;
+        font-style: italic;
+        position: relative;
+        top: 10px;
+        left: 37px;
+
+    }
+}
+
+.hide {
+    display: none;
 }
