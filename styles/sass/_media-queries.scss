@@ -1,0 +1,162 @@
+// MEDIA QUERIES
+
+//tablets
+@media (max-width: 768px) {
+    
+    // HOMEPAGE
+    section {
+        padding: 30px 0;
+    }
+
+    .home-header-feat {
+        flex-direction: column;
+        padding-top: 0;
+
+        img {
+          padding-left: 35px; 
+          width: 30%; 
+        }
+
+        .home-header-text {
+            padding-top: 20px;
+        }
+    }
+
+    .home-intro {
+        flex-direction: column;
+    }
+
+    .intro-img,
+    .intro-text {
+        width: 100%;
+    }
+
+    .category {
+        align-items: center;
+
+        div {
+            justify-content: center;
+        }
+    }
+
+     .home-map {
+        flex-direction: column;
+    }
+
+    .home-map-img, 
+    .home-map-text {
+        width: 100%;
+    }
+
+    .home-map-text {
+        padding-top: 30px;
+
+        img {
+            width: 25%; 
+        }
+    }
+
+    .steps {
+        flex-direction: column;
+
+        div {
+            width: 100%;
+        }
+
+        h3 {
+            text-align: center;
+        }
+    }
+
+    //DETAILS
+    .details-main {
+        width: 85%;
+        padding-left: 35px;
+    }
+
+    .details-aside {
+        width: 15%;
+    }
+
+    .details {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .details-text,
+    .details-img {
+        width: 100%;
+    }
+
+    .details-img {
+        padding-top: 0;
+    }
+    
+}
+
+
+// mobile devices
+@media (max-width: 480px ) {
+   
+    // HOMEPAGE
+    .categories {
+        flex-direction: column;
+        padding-bottom: 30px;
+    }
+
+    .category {
+        width: 100%;
+        
+    }
+
+    .home-unplugged {
+        img {
+            width: 25%;
+        }
+
+        p {
+            padding: 0;
+        }
+    }
+
+    .cta {
+        padding-bottom: 30px;
+    }
+
+    .gallery {
+        flex-direction: column;
+
+        img {
+            width: 100%;
+            padding: 10px 0;
+        }
+    }
+
+    .contact-us {
+        padding-bottom: 20px;
+    }
+
+    .sub-footer div {
+        flex-direction: column;
+        text-align: center;
+
+        p {
+            padding: 5px 0;
+        }
+    }
+
+    .foot-flex ul {
+        flex-direction: column;
+    }
+
+    // DETAILS
+    .details-btns {
+        flex-direction: column;
+
+        a {
+            width: 100%;
+            margin-top: 20px;
+        }
+    }
+
+}
