@@ -913,6 +913,12 @@ iframe {
   margin-top: 20px;
 }
 
+.travel-header-text p > a {
+  border-bottom: 0.5px solid #A88660;
+  padding: 0;
+  margin: 0;
+}
+
 .travel-categories {
   padding-top: 100px;
 }
