@@ -8,7 +8,8 @@
         padding: 30px 0;
     }
 
-    .home-header-feat {
+    .home-header-feat,
+    .travel-header-feat {
         flex-direction: column;
         padding-top: 0;
 
@@ -91,7 +92,85 @@
     .details-img {
         padding-top: 0;
     }
+
+    // TRAVEL
+
+    .travel {
+        height: auto;
+        min-height: 100vh;
+
+        .head-flex {
+            height: auto;
+            min-height: 90vh;
+        }
+    }
+
+    .travel-header-text {
+        padding-top: 20px;
+        width: 100%;
+        order: 2;
+    }
     
+    .list-flex {
+        flex-direction: column;
+
+        div {
+            align-items: flex-start;
+            width: 100%;
+
+            ul {
+                padding-bottom: 25px;
+            }
+
+            li a {
+                font-size: 1.4rem;
+            }
+        }
+    }
+
+    .travel-list {
+        padding: 40px;
+        margin-top: 50px;
+    }
+
+    .rsvp-flex {
+        flex-direction: column;
+    }
+
+    .rsvp-text,
+    .rsvp-link {
+        width: 100%;
+        text-align: center;
+
+        a {
+            margin-top: 20px;
+        }
+    }
+
+    .travel-info {
+        flex-direction: column;
+    }
+
+    .travel-info-text,
+    .travel-info-map {
+        width: 100%;
+    }
+
+    .travel-info-map {
+        order: 2;
+    }
+
+    .travel-info-text {
+        margin: 10px 0 30px;
+
+        img {
+            width: 20%;
+        }
+    }
+
+    .stay img {
+        width: 15%;
+    }
 }
 
 
@@ -99,6 +178,11 @@
 @media (max-width: 480px ) {
    
     // HOMEPAGE
+    .home-header-text,
+    .travel-header-text {
+        padding-left: 20px;
+    }
+
     .categories {
         flex-direction: column;
         padding-bottom: 30px;
@@ -133,7 +217,7 @@
     }
 
     .contact-us {
-        padding-bottom: 20px;
+        padding: 30px 0 20px;
     }
 
     .sub-footer div {
@@ -158,5 +242,20 @@
             margin-top: 20px;
         }
     }
+
+    // TRAVEL
+    .travel-header-text h2 {
+        font-size: clamp(2.8rem, 4.2vw, 4.4rem)
+    }
+
+    .rental-car img {
+       width: 20%;
+    }
+
+    .travel-info-text img {
+        width: 30%;
+        
+    }
+
 
 }
