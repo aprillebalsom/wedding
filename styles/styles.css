@@ -328,6 +328,10 @@ button:focus {
   color: #A88660;
 }
 
+button {
+  border-bottom: 0.5px solid #A88660;
+}
+
 hr {
   border: 0;
   height: .5px;
@@ -772,6 +776,7 @@ iframe {
 
 .bubble img {
   width: 71px;
+  margin-top: 5px;
   position: absolute;
   -webkit-transform: rotate(180deg);
           transform: rotate(180deg);
@@ -781,7 +786,7 @@ iframe {
   font-size: 1.3rem;
   font-style: italic;
   position: relative;
-  top: 10px;
+  top: 16px;
   left: 37px;
 }
 

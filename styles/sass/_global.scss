@@ -57,6 +57,10 @@ button {
     }
 }
 
+button {
+    border-bottom: .5px solid $brown;
+}
+
 hr {
     border: 0;
     height: .5px;

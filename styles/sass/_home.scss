@@ -118,7 +118,6 @@
     padding: 20px;
 
     img {
-        // padding: 20px 0;
         width: 50%;
     }
 
@@ -190,11 +189,6 @@
         width: 15%;
     }
 }
-
-// .stay img {
-//     width: 10%;
-// }
-
 
 .home-seeds {
     background-color: $light-pink;
@@ -275,6 +269,7 @@
 .bubble {
     img {
         width: 71px;
+        margin-top: 5px;
         position: absolute;
         transform: rotate(180deg);
     }
@@ -283,7 +278,7 @@
         font-size: 1.3rem;
         font-style: italic;
         position: relative;
-        top: 10px;
+        top: 16px;
         left: 37px;
 
     }
