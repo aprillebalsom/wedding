@@ -1144,6 +1144,9 @@ iframe {
   .details-img {
     padding-top: 0;
   }
+  .wed-details img {
+    width: 35%;
+  }
   .travel {
     height: auto;
     min-height: 100vh;
