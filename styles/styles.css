@@ -356,6 +356,10 @@ iframe {
   font-weight: lighter;
 }
 
+.underline {
+  text-decoration: underline;
+}
+
 .accent {
   color: #a09f9f;
 }
@@ -682,6 +686,10 @@ iframe {
 .home-map-text img,
 .travel-info-text img {
   width: 15%;
+}
+
+.home-shuttle li {
+  padding: 10px 0;
 }
 
 .home-seeds {
